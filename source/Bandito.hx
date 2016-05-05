@@ -58,7 +58,7 @@ class Bandito extends Entity
 		
 		currentState = Entity.State.IDLE;
 		
-		ayeChihuahua = FlxG.sound.load("assets/sounds/Chihuahua.wav", 1);
+		ayeChihuahua = FlxG.sound.load("assets/sounds/Laborer00.wav", 1);
 		
 		facing = Direction;
 		scoreValue = 250;
