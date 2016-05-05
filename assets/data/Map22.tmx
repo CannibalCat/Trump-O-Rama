@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="12" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Background" tilewidth="64" tileheight="64">
+  <image source="LevelTiles.png" trans="ff00ff" width="2496" height="2688"/>
+ </tileset>
+ <layer name="Background" width="128" height="12">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="scrollfactor" value="1.0"/>
+   <property name="tileset" value="Background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1ndwlEUYx/F97y5KDSSAtFgoAQSkpwHSYi8oTSkhuSQUxa4UUQEBUwEVe5tRqcJACqACNtAZ6SgDKQS7AnbpOArB786977zrZddBGI4/kp35zLx3s+/u8+xvbueE0A8fIlEP9dEA4aiDMHvOL14hfvUaFjhPQ9bt1FkXEcLtI0wzvz71N8BFaIhGaIwmaIooTX9yjzjEIwHd7bUny3097IsIROKR06xbPct2yEAmspCNHOSi/Wmud7ZD9uj01gM9EYNY4Z5jJJPq+UJUkDJuwa0aA0SgbqdOXUbBowdn3hNXohd6ow/6oh8SDfknIwV+pAo3/1gyj0M8Ev5H/upZyvyXYTnykI8CFIrQ5u8Xgd7SkI4kjBSBXmUGCUzq7tPncDbDlK+z9kAkc7Yp8CMVaRhk1+3UqcsoeKSRbzpGYTTGYCzuwJ0YZ8jfuWPUu0Xm/50lxPf4AXstff66/pyzlP3J/HdiF4pQjBKUitDmP4AzHSjPFYMxBLd5Ar1OxO08D8UwDMcIJGGSZj0/Z5GKNKRjFEZjjFVxrlx7L/ZhP37ET/hZBNaW+WewTyaykI0cJf8oXIxLcCkuQzOhzz+HfHMxC7MxB0/iKTyNuYb8nTsm+P6vTh01UBO1DL9/2V9ztEBLRKMVWtv9yfzncS7zsQALsQiLrdDm/zD1T5Y94FE8hilK/lN5nobHMR0zMNOQfxa1ZyMHuZiF2ZhjyL8W39dGOOqgLiIsN/9l7LMcechHgZJ/Iq7C1bgG1+I6oc+/gHwLsQIrsQpv4x28i9WG/J07xi/+ff93oo7O6IKu/5H/9bgBN+Im3Iz+ws1/E71uxhZsxTZsD3H+r1P/G3gT8zAfC5T8F/K8CIvxFpZgqSH/PGrPRwEKsQIrscqQf1e+74YYxCIO8Ur+O9lnF4pQjBIl/3G4C3fjHtyL+4Q+/xLyLcVulGEPvsCX+ApfG/J3/hPXQE3h5v8NNX6LfdhvuP9lf/fjATyIhzAeE4Sb/wHePYhDOIwjOHoO8h9iIHv8lDPdgI3YhM3YouS/ledt2I7P8Dl22PkHr1dE7cUoQSl2owx7rIpz5drD+X4EkjASyUhR8v+Lff7GCZxEuZL/XDyDZ/EcnscLIlB38F7l5HvKG3jRggde+BCGC3z6s3H+E3dGF+HmfyF1VENthNu/f11/L+IlvIxX8CpeE27+DXm3ERqjCZoiyhPI35TZmehgIHv8jf1+xx84gIM4pOR/mOcjOIpjOI4/7fyD1ztBdidRjlPyN888Cx5Pxbly7enMmYGZeAIZyFTyb0ZmzdECLRHtdfNfjTVYi/fwPj6wMwreK5oXWqE12uBytEU7tMcVPv3ZOP+Jh2KYkn8H+umIboix89f19yE+wjqsx8f4RMm/F+/2Rh/0RT8k2vmbMjsT3iqVmqdKpWbZ2tiqPlfOz1Uqp38ACsQYLg==
+  </data>
+ </layer>
+</map>

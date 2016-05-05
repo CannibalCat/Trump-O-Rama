@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="12" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Background" tilewidth="64" tileheight="64">
+  <image source="LevelTiles.png" trans="ff00ff" width="2496" height="2688"/>
+ </tileset>
+ <layer name="Background" width="128" height="12">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="scrollfactor" value="1.0"/>
+   <property name="tileset" value="Background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1ndwFGUYx/HbvTtQaelBRQmdGQGVnoAgSLNAKCKQQkBQwL8FBJSWAtLUGerQQVoKRaXMWEc60lJoSlEEEVII0hKq33dyO/uw7h1DJkycSXb4sO97vO97z/v+kl0cjuJdo9RfGn9wh+Zd3MN9jEZvzOXf5mE+FmA25oh7H886BSh02K/zqJcLrdAa4YgQ/RZoKT437u5H/I4XEI8ETMFU0W/kGZPtdDhynA+fn4gksU4j+yn/u0vl1oAMG6IO6qIe6mtm/t/T/gE/4id8i+/E3ci/Ju0wL+tEoqcXvWzqUvkPRBwGYbDoxyBWfG7ci5N/MlKwHhtE38gvgEICXQ+fn4o0sU5p59+dmnsgEj3RC73Rx7IXlVsPMorEG3gTb6G7yD9W5+wRh0EYjHcxBEN1M/8uzOnqZZ0xGOfFWJv6VZl+8EdVVBP9AASKz41+cfJPRwaO4Kjoq/zUz2w4hUS47H9m5fxMZIl1Sjv/D6l5JEZhND7CGIy1yb8fGfbHAEQhGjG6mX8C7UQkYQqm4lNMw3SR/1qyXodkpCAVaSL/M/gdf+As/sQ5h/f8rc976/vA+h6Q+S/GEizFMizHCqwUY1R+K6hvJb7EKqzGGq0oP7Wn8/gLF/A3LuKSo2hPav577P99DMNwjMAHeunnv5ADXITFWIKlWIblNvmPp94JmIhJmIx4kX8K7VSkYT02YCM24SuR/yHO7TDSkYFMZIn8K9CuiCfwJJ5CJc17/tbnvfV9YH0PyPx3YCd2YTf2YC/2iTEqv718/z78gv04gIMi/8q0q6AqqsEP/pqZ/wz2PxOz8Bk+xxe6+fzw9Y57nNfPHOB27MBO7MJu7LHJfxX1rsYarMU6JIv8M2hnIgtHcBTHcBwnRP43OJebKEAhbuG2yL8x7SZ4ES/hZTT1kb/xfK+MKj7uxjiZfzZykIs8XEY+rogxKr98vv8K/sFVXMN1kX8z2s3RAi3RCq1F/l+z/2+wGVuwFds8+as95/J/xzyn/R5L8uprcZEDvIRs5CAXebjsenCc2uN+6j2AgziEw0gX+RfSvoXbuIO7uIf7cDjN/J+j/zxqIgy1UFs383+bc+uLd9AP/THAk7+1fpW/8XxvhuY+7sY4t5gfwLqBCEIwQhCK6po5RuUXSn3V8TSewbOooZv5RzE+GjGIxUDEifx/ZexvOIlTOI0zIv8gNhLsst9jSWpi4cdh+CMAgQhCMELcD45Te7xKvddwHTdwEwUi/zAyroXaqIO6qIf6aCDy78SczuiCruiG10X+4zi3j/EJxmMCJnryt9av8jee71GI9nE3xrnF/HDWjUAbtMUraIf2mjlG5deO+trjVXRAR7wm8p/E+MmIRwISkSTy19i/DidccKOCs2h+iPp9o52PUNd/91iSnOXKNL1cmaZ5NPQo75fNfrmy6V9R3ECf
+  </data>
+ </layer>
+</map>

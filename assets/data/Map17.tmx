@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="12" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Background" tilewidth="64" tileheight="64">
+  <image source="LevelTiles.png" trans="ff00ff" width="2496" height="2688"/>
+ </tileset>
+ <layer name="Background" width="128" height="12">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="scrollfactor" value="1.0"/>
+   <property name="tileset" value="Background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1HVwFGccxvH39u4YnOIBgjsJUIoXSoDgGiH4v7hbSHD5oy2DOxSIJ7gM7h5PgLbQTrHBHaJIW2b4vnOX2XeOvaE0QWaSnfnM7W129/29z5NEiP9+uGEJliqfP2MB3OGPf/EWmkkIMyywYupHrPN/D3+DddX1A/GQ80d4jCe4jweY9oHns65ndx8yw0VYLPQMf8RPwpbhlz5kBn5mIfqiH/pjgNm2bzn7ARxUPndjj9D7r05GNVAX9eAG98/Yv+O66vqy/2KaEN+gOEqgCIpqev/Ons+6nhP978N+oWe4E7vE19P/DPqeiVmYjTlK/9dxQ/n8A38Kvf9uZNQdXvCGD3ztufWGlxPeBrOMtggxBmMxDuMxARMxyWI8u+O66vqy/2Z03Rwt0BJN0FTp39nzWddzov+ruKZkeBlX7Bl+bEY5fcgMwug7HBGIRJTS/xCyGophGI4RGKnp/VdDddRATdRCbWF7XlbmioqohMqogqqwGsyyggdWYhVWYw3WYh3WO+l/Mx1twVZsw3bsUPqvw17qoh7c4I76Zr3/fuylPwZgIAZhMAKEjVH/G7EJQQhGCEJljgb3ygxDmScM4YhAJKJMtgzltrxZzwe+6AM/9NWMM8rpQ2YQTx4JSEQSkpX+FzLHIizGEizFMqX/ruiG7uiBnugl9P490QEd0Qmd0UUY7+0IDxzFMRzHCZzEKZx20v8FcryIS/gVv+F3pf/e7MUL3vCBL/oo/c9iL7MxB3MxD/M/0P85nEc0YhCLOJmjwb0ywzjmiUcCEpGEZKX/ANYLlP+TMB0zMPMz9p9KHmlIRwYylf73Msc+7McBHMQhpf/xmICJmITJmCL0/kdiFEZjDMZinDDe2y0euI07uIt7uI8HeOik/5fk+Aqv8QZ/4x+lf3+5FwQgUPaO6Ur/EewlElHYjC3Yigx+limM+3+Cp3iG53iBFJmjwb0ywxTmSUUa0pGBTKX/INYLRghCEYbwT9S/nwOZgQtDlEN5VICrRe//L+a4imu4jhu4qfS/BmuxDuvxCzYIvf9lWI4VWIlVWC1se3OcJT8XC6AgCqEwiqAoilmNZ6/ILJVQGVVQFdU0vf+NdL0JQQhGCEKV/hO5NwnJuICLuIQK9ONq/z1yXLcE10uiFEqjDMrCxfT+vTLDsrzPBeVQXr4brprefzTnMYhFHOKRoBlnlF0NHMgMPBiiLdqhPTyV/k1kpcEMC6zIZ9b7P4GTOIXTOIOzSv+HcBhHcBTHcNzev+MsDbn4LRrhOzRGEzRFM6vx7B3IqSM6oTO6oKvS/zlmPY9oxCAWcUr/6fJvHZl4iVd4jfZ06Wnv33Hdllz/Hq3QGj+gDTxM798rM2zD+zzQFu3ku+Gp9P+M8+d4gRSkIk0zzii7zHlyNS1Prmayq2OX9z13fs+TO70D5qQ/5g==
+  </data>
+ </layer>
+</map>

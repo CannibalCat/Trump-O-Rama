@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="12" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="Background" tilewidth="64" tileheight="64">
+  <image source="LevelTiles.png" trans="ff00ff" width="2496" height="2688"/>
+ </tileset>
+ <layer name="Background" width="128" height="12">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="scrollfactor" value="1.0"/>
+   <property name="tileset" value="Background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1VdwFVUcx/Fzdy8WSAUdKSFNH5hRQEgFHSkhDRRFBSlpwGCh2vVBagrI2Kg2niShpIAOonTbkySUFJDBXiBFH6RJis743dk9s4e9uzNhgPuS7Mxn9uwtu//z/517rhCBx8N4xMMk+JGEZKQgVbnugbtRjgpUogo7sBP3uDwvWMfLaEUb2tGhXL8izLqLUYKVWKWcO1O30ZcIRKI3+uA23C7MvsjDq7+TPGp4Has7WcP1OIw+verB6JMxzxzkIg/5yrXMvxZ1qEcDTuCkNQfj/pN1IabgCUzFNN28942eV4xPiFjEId5nX8v8nev1atat0Rf5exiBkbgP94sr838Uj7t4zKOGj/FJJ2u4HofRp3maEPOxAAuxCM9qdv5hCBf2OpfrXuZfiCLlLNe0zP818l6MJViKZUHKP4OsM5GFbJ99LfN3rld13XZmX5S/hwLMxCzMFoH5j2e+E/AgHsJE3c7fWcN3OCWCm/9asl6H9diAjXhXyV/u93Kdy3Xv3P+d/wMy/83MtxRl2IKtHvmf5ZmNaEIzWvAn/tLM97fzvXJUoBJV2IGduvu8tpH1dpSjApWoUvL/iPFmlKIMW7DVZ9d9xqgJjWhCM1qE3ZcoDEQ0YhCLOBGY/3PU9zxewIt4Scl/DnN7Ek/haTyDuVpw89/L8/ZhPw7gIA5pgft/gTDXuVz3zv3f+T8g+3iY+VajBkdw1CP/UF4PQzgiEIne6GPle5xzLepQjwacwEmP/I+R5XHUog71aFDy/5bxYVSjBkdwVMk/hHEowhCOCET67L6kYRzSkYFMZInA/N+jvvfxAT7EJiX/N+jzm3gLb+MdrAly/r/wvF/xG37HHzij5B+CUGHv/z3RS9j5D8ZiLFHOxmuyj+eY73lcwEVc8sg/kdeTkIwUpGIERlr5Xubcija0owP/4j+P/P8hq8toRRva0aHk/zfjcziPC7iIS0r+CYwTkYRkpCBVyX8u5mE+FmAhFonA/L+gvi/xFb7GN0r+u+jzp9iNz/A59tyg/Ce7MOZ5M/XcglvRE70QotvzTECisPf/YRgursy/FGXKWc2/Lzfph/4YgCi/eW9nLTN4Zg5ykYd8FGCmbr4fzfdiEIs4xONO3OV3n9dA+hiNGMQiDvGanf8djPuiH/pjAKI0u+7pZD0DOchFHvKV/NdgLdZhPTZgo9UXWYeR/1nqb0QTmtGi5H+a532PH/AjfsLPVg1ueV2LIS6MeQ6hnqG4F8MwHAlK/tONbIS9/0/FNEf+1ahRzmr+o7jJaIzBWKRZ+TtrWcEzC1GEYpRgJVbp5vvpfC8DmchCNsZjgt99XuPoYzoykIksZCv5P8B4FEZjDMYiTcl/OVmvQCGKUIwSJf892It92I8DOGj1RdZh5B/Kh8MQjghE+u38fcxNgw4/euAm3azBLa9roXfr0rRuXZrPMsjSfd01r7t1Tf8Dq8tA0Q==
+  </data>
+ </layer>
+</map>
