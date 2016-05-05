@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!------------------------------APPLICATION SETTINGS---------------------------->
+	
+	<app title="Trump-O-Rama" file="TrumpORama" main="Main" version="1.0.0" company="Kablooey Cat" />
+	
+	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
+	<!--or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"!-->
+	<app preloader="flixel.system.FlxPreloader" />
+	
+	<!--Minimum without FLX_NO_GAMEPAD: 11.8, without FLX_NO_NATIVE_CURSOR: 11.2 -->
+	<set name="SWF_VERSION" value="11.8" />
+	
+	<!--------------------------------WINDOW SETTINGS------------------------------->
+	
+	<!--These window settings apply to all targets-->
+	<window width="1024" height="768" fps="60" background="#000000" hardware="true" vsync="true" />
+	
+	<!--Web-specific-->
+	<window if="web" orientation="landscape"  />
+	
+	<!--Desktop-specific-->
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="false" borderless="false" />
+	
+	<!--Mobile-specific-->
+	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" />
+	
+	<!--------------------------------PATHS SETTINGS-------------------------------->
+	
+	<set name="BUILD_DIR" value="export" />
+	<classpath name="source" />
+	<assets path="assets" />
+	
+	<!--------------------------------LIBRARIES------------------------------------->
+
+	<haxelib name="flixel"/>
+	
+	<!--In case you want to use the addons package-->
+	<haxelib name="flixel-addons"/>
+	
+	<!--In case you want to use the ui package-->
+	<!--haxelib name="flixel-ui"/-->
+	
+	<!--In case you want to use nape with flixel-->
+	<!--<haxelib name="nape"/>-->
+	
+	<!--------------------------------HAXEDEFINES----------------------------------->
+	
+	<!--Enable the Flixel core recording system-->
+	<!--<haxedef name="FLX_RECORD" />-->
+	
+	<!--Disable the right and middle mouse buttons-->
+	<!--haxedef name="FLX_NO_MOUSE_ADVANCED" /-->
+	
+	<!--Disable the Native cursor api for Flash target-->
+	<!--haxedef name="FLX_NO_NATIVE_CURSOR" /-->
+	
+	<!--Optimise inputs, be careful you will get null errors if you don't use conditionals in your game-->
+	<!--haxedef name="FLX_NO_MOUSE" if="mobile" /-->
+	<!--haxedef name="FLX_NO_KEYBOARD" if="mobile" /-->
+	<!--haxedef name="FLX_NO_TOUCH" if="desktop" /-->
+	<!--haxedef name="FLX_NO_GAMEPAD" /-->
+	
+	<!--Disable the Flixel core sound tray-->
+	<!--haxedef name="FLX_NO_SOUND_TRAY" /-->
+	
+	<!--Disable the Flixel sound management code-->
+	<!--haxedef name="FLX_NO_SOUND_SYSTEM" /-->
+	
+	<!--Disable the Flixel core focus lost screen-->
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+	
+	<!--Disable the Flixel core debugger. Automatically gets set whenever you compile in release mode!-->
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+	
+	<!--Enable this for Nape release builds for a serious peformance improvement-->
+	<!--haxedef name="NAPE_RELEASE_BUILD" unless="debug" /-->
+	
+	<!--------------------------------CUSTOM---------------------------------------->
+	
+	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
+	
+	<icon path="assets/images/TrumpIcon.svg" />
+	
+	<assets path="assets/sounds" unless="flash">
+		<sound path="GunShot.wav" id="GunShot" />
+		<sound path="EnemyGunShot.wav" id="EnemyGunShot" />
+		<sound path="Pickup.wav" id="Pickup" />
+		<sound path="FemaleThankYou.wav" id="FemaleThankYou" />
+		<sound path="FemaleMyHero.wav" id="FemaleMyHero" />
+		<sound path="FemaleHelpMe.wav" id="FemaleHelpMe" />
+		<sound path="FemaleSaveMe.wav" id="FemaleSaveMe" />
+		<sound path="FemaleScream.wav" id="FemaleScream" />
+		<sound path="FemaleDie.wav" id="FemaleDie" />
+		<sound path="MaleThankYou.wav" id="MaleThankYou" />
+		<sound path="MaleOverHere.wav" id="MaleOverHere" />
+		<sound path="MaleHelp.wav" id="MaleHelp" />
+		<sound path="MaleDie.wav" id="MaleDie" />
+		<sound path="CashIn.wav" id="CashIn" />
+		<sound path="Whistle.wav" id="Whistle" />
+		<sound path="PlayerHit1.wav" id="PlayerHit1" />
+		<sound path="PlayerHit2.wav" id="PlayerHit2" />
+		<sound path="PlayerDie.wav" id="PlayerDie" />
+		<sound path="OhNo.wav" id="OhNo" />
+		<sound path="Aye.wav" id="Aye" />
+		<sound path="EvilLaugh.wav" id="EvilLaugh" />
+		<sound path="FleshHit.wav" id="FleshHit" />
+		<sound path="Transform.wav" id="Transform" />
+		<sound path="Arrgghh.wav" id="Arrgghh" />
+		<sound path="ClericDie.wav" id="ClericDie" />
+		<sound path="ClericAkbar.wav" id="ClericAkbar" />
+		<sound path="TrumpShoot.wav" id="TrumpShoot" />
+		<sound path="Explosion1.wav" id="Explosion1" />
+		<sound path="Explosion2.wav" id="Explosion2" />
+		<sound path="Explosion3.wav" id="Explosion3" />
+		<sound path="Explosion4.wav" id="Explosion4" />
+		<sound path="Fired.wav" id="Fired" />
+		<sound path="Tilt.wav" id="Tilt" />
+		<sound path="Pop.wav" id="Pop" />
+		<sound path="BankerDie.wav" id="BankerDie" />
+		<sound path="BuildWall.wav" id="BuildWall" />
+		<sound path="WantSome.wav" id="WantSome" />
+		<sound path="Grapefruits.wav" id="Grapefruits" />
+		<sound path="AmericanDream.wav" id="AmericanDream" />
+		<sound path="Politicians.wav" id="Politicians" />
+		<sound path="Transform.wav" id="Transform" />
+		<sound path="Error.wav" id="Error" />
+		<sound path="MilitantYell.wav" id="MilitantYell" />
+		<sound path="YipYipYipYip.wav" id="YipYipYipYip" />
+		<sound path="WoooHaaa.wav" id="WoooHaaa" />
+		<sound path="YeeHaa.wav" id="YeeHaa" />
+		<sound path="RocketLaunch.wav" id="RocketLaunch" />
+		<sound path="Squish.wav" id="Squish" />
+		<sound path="Splat.wav" id="Splat" />
+		<sound path="ExtraLife.wav" id="ExtraLife" />
+		<sound path="Reload.wav" id="Reload" />
+		<sound path="DroneFlyBy.wav" id="DroneFlyBy" />
+		<sound path="MissileFlyBy.wav" id="MissileFlyBy" />
+		<sound path="QuickWhoosh.wav" id="QuickWhoosh" />
+		<sound path="PalinDeath.wav" id="PalinDeath" />
+		<sound path="PalinHit1.wav" id="PalinHit1" />
+		<sound path="PalinHit2.wav" id="PalinHit2" />
+		<sound path="PalinOhMan.wav" id="PalinOhMan" />
+		<sound path="GorySquish.wav" id="GorySquish" />
+		<sound path="MetalClank.wav" id="MetalClank" />
+		<sound path="Thud.wav" id="Thud" />
+		<sound path="Click.wav" id="Click" />
+		<sound path="TallyText.wav" id="TallyText" />
+		<sound path="None.wav" id="None" />
+		<sound path="Disappointed.wav" id="Disappointed" />
+		<sound path="PilotReadyToRollOut.wav" id="PilotReadyToRollOut" />
+		<sound path="PilotOrdersSir.wav" id="PilotOrdersSir" />
+		<sound path="PilotIdentifyTarget.wav" id="PilotIdentifyTarget" />
+		<sound path="PilotYesSir.wav" id="PilotYesSir" />
+		<sound path="PilotDelightedToSir.wav" id="PilotDelightedToSir" />
+		<sound path="TrumpBlast.wav" id="TrumpBlast" />
+		<sound path="TrumpSuffer.wav" id="TrumpSuffer" />
+		<sound path="MegaExplosion.wav" id="MegaExplosion" />
+		<sound path="StartGrowl.wav" id="StartGrowl" />
+		<sound path="TallyBonus.wav" id="TallyBonus" />
+		<sound path="ShowTitleScreen.wav" id="ShowTitleScreen" />
+		<sound path="Yeah.wav" id="Yeah" />
+		<sound path="Busted.wav" id="Busted" />
+		<sound path="TheBest.wav" id="TheBest" />
+		<sound path="NothingBetter.wav" id="NothingBetter" />
+		<sound path="FavoriteFood.wav" id="FavoriteFood" />
+		<sound path="PalinHelpsOnTheWay.wav" id="PalinHelpsOnTheWay" />
+		<sound path="PalinHangInThere.wav" id="PalinHangInThere" />
+		<sound path="SpecialGuy.wav" id="SpecialGuy" />
+		<sound path="UziBurst.wav" id="UziBurst" />
+		<sound path="TrumpSorry.wav" id="TrumpSorry" />
+		<sound path="Jump1.wav" id="Jump1" />
+		<sound path="Jump2.wav" id="Jump2" />
+		<sound path="TruckSqueal.wav" id="TruckSqueal" />
+		<sound path="GoonDie1.wav" id="GoonDie1" />
+		<sound path="GoonDie2.wav" id="GoonDie2" />
+		<sound path="GoonDie3.wav" id="GoonDie3" />
+		<sound path="GoonDie4.wav" id="GoonDie4" />
+		<sound path="GoonDie5.wav" id="GoonDie5" />
+		<sound path="BodyThud.wav" id="BodyThud" />
+		<sound path="TrumpNoNoNoNo.wav" id="TrumpNoNoNoNo" />
+		<sound path="TrumpStrange.wav" id="TrumpStrange" />
+		<sound path="TrumpLike.wav" id="TrumpLike" />
+		<sound path="TrumpDontLikeMe.wav" id="TrumpDontLikeMe" />
+		<sound path="TrumpReady.wav" id="TrumpReady" />
+		<sound path="TrumpShallWe.wav" id="TrumpShallWe" />
+		<sound path="TrumpLoveMexicans.wav" id="TrumpLoveMexicans" />
+		<sound path="TrumpLoveMuslims.wav" id="TrumpLoveMuslims" />
+		<sound path="TrumpLoveCruz.wav" id="TrumpLoveCruz" />
+		<sound path="TrumpLoveChina.wav" id="TrumpLoveChina" />
+		<sound path="TrumpLoveObama.wav" id="TrumpLoveObama" />
+		<sound path="TrumpChina.wav" id="TrumpChina" />
+		<sound path="TrumpUghYaYe.wav" id="TrumpUghYaYe" />
+		<sound path="TrumpSitDown.wav" id="TrumpSitDown" />
+	</assets>
+</project>
+
