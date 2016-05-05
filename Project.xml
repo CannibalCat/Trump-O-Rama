@@ -192,6 +192,10 @@
 		<sound path="TrumpChina.wav" id="TrumpChina" />
 		<sound path="TrumpUghYaYe.wav" id="TrumpUghYaYe" />
 		<sound path="TrumpSitDown.wav" id="TrumpSitDown" />
+		<sound path="Laborer00.wav" id="Laborer00" />
+		<sound path="Laborer01.wav" id="Laborer01" />
+		<sound path="Laborer02.wav" id="Laborer02" />
+		<sound path="Laborer03.wav" id="Laborer03" />
 	</assets>
 </project>
 
